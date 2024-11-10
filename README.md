@@ -36,7 +36,7 @@ En esta sección se documenta el proceso de adquisición en vivo de evidencias d
 
 ### **Cadena de custodia**
 
-#### Formulario de Cadena de Custodia para Evidencias Digitales
+##### Formulario de Cadena de Custodia para Evidencias Digitales
 
 ~~~
 
@@ -73,6 +73,25 @@ Certifico que la información proporcionada en este formulario es verdadera y pr
 Firma del recolector: Alejandro Díaz Barea Fecha: 10/11/2024
 ~~~
 
+
+##### Documentación detallada
+
+    Elaboraremos un informe detallado, incluyendo hora, fecha, todos los procedimientos realizados en detalle, etc. De forma que quede todo registrado de la forma mas detallada, precisa y completa posible. 
+
+- Registro cronológico detallado:
+~~~
+Fecha: 18/10/2024
+17:53 - Llegada a la escena
+17:53 - Fotografía inicial de la disposición de la escena
+17:54 - Verificación del estado: encendido
+17:57 - Identificación de computadora de escritorio (Windows 7)
+~~~
+
+- Tabla de acciones y resultados:
+
+| Hora  | Acción                           | Herramienta utilizada | Resultado/Observación                    |
+|-------|----------------------------------|----------------------|------------------------------------------|
+| 17:53 | Aseguramiento de la escena       | N/A                  | Área acordonada, acceso restringido      |
 
 
 
