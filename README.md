@@ -10,7 +10,7 @@ Durante la adquisición de la evidencia, se realizó la documentación exhaustiv
   * **Estado del dispositivo**: El dispositivo estaba en vivo, y mostró la ventana de selección de configuración de red al inicio del proceso.  
 * **Fotografías de la Escena:**
 
-![][image1]
+![][img1.jpeg]
 
 * **Etiquetado del Dispositivo:**  
   * **Código Único**: Se le asignó el código **VM-001** para identificarlo en el proceso.  
