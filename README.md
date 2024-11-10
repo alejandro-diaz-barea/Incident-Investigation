@@ -33,3 +33,46 @@ En esta sección se documenta el proceso de adquisición en vivo de evidencias d
 
 
 ##### **Adquisición de logs del sistema** 
+
+### **Cadena de custodia**
+
+#### Formulario de Cadena de Custodia para Evidencias Digitales
+
+~~~
+
+1. Número de caso / Identificador único: **VM-001**
+
+2. Descripción detallada del dispositivo:
+
+   - Tipo de dispositivo: Máquina Virtual
+   - Marca: Windows
+   - Modelo: Windows 7
+   - Número de serie: N/A (Máquina virtual sin número de serie)
+   - Características adicionales: Configuración para práctica forense
+
+3. Recolección:
+
+   - Fecha: 0/11/2024
+   - Hora: 17:35 hrs
+   - Lugar de recolección: Entorno controlado VirtualBox
+
+4. Recolector:
+
+   - Nombre completo: Alejandro Díaz Barea
+   - Cargo/Institución: C.E Ciberseguridad
+   - Firma: Alejandro Díaz Barea
+
+5. Estado del dispositivo al momento de la recolección:
+   El dispositivo estaba encendido al inicio de la adquisición, en un escenario en vivo, mostrando la ventana de selección de configuración de red.
+
+6. Observaciones adicionales:
+   El dispositivo es una máquina virtual Windows 7. La adquisición se realizó siguiendo el orden de volatilidad para asegurar la preservación de los datos.
+
+Certifico que la información proporcionada en este formulario es verdadera y precisa según mi mejor conocimiento.
+
+Firma del recolector: Alejandro Díaz Barea Fecha: 10/11/2024
+~~~
+
+
+
+
