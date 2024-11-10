@@ -76,7 +76,7 @@ Firma del recolector: Alejandro Díaz Barea Fecha: 10/11/2024
 
 ##### Documentación detallada
 
-    Elaboraremos un informe detallado, incluyendo hora, fecha, todos los procedimientos realizados en detalle, etc. De forma que quede todo registrado de la forma mas detallada, precisa y completa posible. 
+Elaboraremos un informe detallado, incluyendo hora, fecha, todos los procedimientos realizados en detalle, etc. De forma que quede todo registrado de la forma mas detallada, precisa y completa posible. 
 
 - Registro cronológico detallado:
 ~~~
