@@ -21,15 +21,32 @@ Durante la adquisición de la evidencia, se realizó la documentación exhaustiv
 En esta sección se documenta el proceso de adquisición en vivo de evidencias digitales, siguiendo el orden de volatilidad para maximizar la preservación de datos. El objetivo principal de la adquisición en vivo es preservar la memoria volátil y otros elementos temporales del sistema, asegurando siempre la integridad de los datos durante la recolección.
 
 ##### **Captura de la memoria RAM**
-Para obtener la memoria RAM , se ha utilizado la herramienta ```RamCapturer64``` . Se ha realizado la copia del 
+Para obtener la memoria RAM , se ha utilizado la herramienta ```RamCapturer64``` . Esta herramienta permite realizar un volcado completo de la memoria RAM sin afectar la integridad de los datos.
 
 ![](ramCapturer.png)
 
-	
+Una vez completada la captura, se ha procedido a calcular los valores hash, utilizando los algoritmos MD5 y SHA-1 para asegurar la integridad del archivo de volcado. Los hashes calculados nos permiten verificar que el volcado de memoria no ha sido alterado durante su almacenamiento o transferencia.
+
+|Nombre|hash|
+|-|-|
+|md5|7412d141d11af0bd304975f943c4e1e3|
+|sha1|b4f79ca54f4bba663cd59fcbb32d9b61b614c447|
 
 ##### 	**Adquisición de el disco duro**
 
+Para hacer una adquisición del disco duro se ha utlizado ```FTK imager```. Esta herramienta permite generar una copia exacta del contenido del disco, preservando toda la información y asegurando la integridad de los datos adquiridos.
 
+Se rellenaron los datos del caso en la interfaz de FTK Imager, incluyendo el número de caso VM-001, número de evidencia 001, y una descripción única del dispositivo como hard disk copy. Además, el nombre del examinador, Alejandro Díaz Barea, se incluyó para identificar al responsable del proceso.
+
+![](nombreCasoDIsc.png)
+
+A continuación, se seleccionó la ubicación de destino para almacenar la imagen del disco y se eligió el formato raw, un formato común para adquisiciones forenses que facilita el análisis posterior sin modificar la estructura de los datos. La copia de la imagen se generó con éxito, preservando todos los sectores del disco.
+
+![](discoDuro.png)
+
+Finalmente, se calcularon los valores hash (MD5 y SHA1) del archivo de imagen generado para asegurar la integridad de los datos y verificar que no se produjeron alteraciones durante el proceso de copia.
+
+![](hashDisco.png)
 
 ##### **Triaje de el disco duro**
 
