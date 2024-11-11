@@ -48,6 +48,13 @@ Finalmente, se calcularon los valores hash (MD5 y SHA1) del archivo de imagen ge
 
 ![](hashDisco.png)
 
+
+| Nombre | Hash                                    |
+| ------ | --------------------------------------- |
+| md5    | 5708010b9ba58a7bfcd33b8cd124eeeb        |
+| sha1   | cb38cce7a61b9b0f4619796bd10aea18a49fdd5 |
+
+
 ##### **Triaje de el disco duro**
 
 
