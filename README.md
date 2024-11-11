@@ -21,6 +21,9 @@ Durante la adquisición de la evidencia, se realizó la documentación exhaustiv
 En esta sección se documenta el proceso de adquisición en vivo de evidencias digitales, siguiendo el orden de volatilidad para maximizar la preservación de datos. El objetivo principal de la adquisición en vivo es preservar la memoria volátil y otros elementos temporales del sistema, asegurando siempre la integridad de los datos durante la recolección.
 
 ##### **Captura de la memoria RAM**
+Para obtener la memoria RAM , se ha utilizado la herramienta ```RamCapturer64``` . Se ha realizado la copia del 
+
+![](ramCapturer.png)
 
 	
 
