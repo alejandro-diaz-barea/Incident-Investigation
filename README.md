@@ -57,6 +57,19 @@ Finalmente, se calcularon los valores hash (MD5 y SHA1) del archivo de imagen ge
 
 ##### **Triaje de el disco duro**
 
+Durante el proceso de triaje del disco duro se utilizó la herramienta ```FTK Imager``` para identificar y extraer archivos temporales, enlaces (links), cookies, y favoritos del sistema. Estos elementos fueron seleccionados para proporcionar una visión detallada del comportamiento del usuario, identificando lo más utilizado y cualquier rastro potencial de actividad sospechosa.
+
+![triaje](triaje.png)
+
+Una vez completado el triaje, se procedió a calcular los valores hash (MD5 y SHA-1) de los datos recolectados
+
+| Nombre | Hash                                    |
+| ------ | --------------------------------------- |
+| md5    | f0e9d4e865b42e4d9e1f9a467b3e1e5d        |
+| sha1   | 5a7c6d8e0b3c4f5b2e4d1a8b8c7d6f4e3b2a1f90|
+
+
+![](hashTriaje.png)
 
 
 ##### **Adquisición de logs del sistema** 
