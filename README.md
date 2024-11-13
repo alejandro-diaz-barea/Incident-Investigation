@@ -73,6 +73,8 @@ Una vez completado el triaje, se procedió a calcular los valores hash (MD5 y SH
 
 
 ##### **Adquisición de logs del sistema** 
+Para la obtención de los registros de actividad del sistema, se utilizó la herramienta LastActivityView, la cual permite capturar y visualizar eventos relevantes que muestran un rastro detallado de las acciones del usuario y del sistema. Esto incluye actividades como aperturas de archivos, ejecución de programas, conexiones a redes y otros eventos importantes para el análisis forense.
+
 
 ### **Cadena de custodia**
 
@@ -118,20 +120,44 @@ Firma del recolector: Alejandro Díaz Barea Fecha: 10/11/2024
 
 Elaboraremos un informe detallado, incluyendo hora, fecha, todos los procedimientos realizados en detalle, etc. De forma que quede todo registrado de la forma mas detallada, precisa y completa posible. 
 
-- Registro cronológico detallado:
-~~~
-Fecha: 18/10/2024
-17:53 - Llegada a la escena
-17:53 - Fotografía inicial de la disposición de la escena
-17:54 - Verificación del estado: encendido
-17:57 - Identificación de computadora de escritorio (Windows 7)
-~~~
-
 - Tabla de acciones y resultados:
 
 | Hora  | Acción                           | Herramienta utilizada | Resultado/Observación                    |
-|-------|----------------------------------|----------------------|------------------------------------------|
-| 17:53 | Aseguramiento de la escena       | N/A                  | Área acordonada, acceso restringido      |
+|-------|----------------------------------|-----------------------|------------------------------------------|
+| 17:53 | Aseguramiento de la escena       | N/A                   | Área acordonada, acceso restringido      |
+| 17:54 | Documentación fotográfica inicial | Cámara digital       | Capturas de la disposición de la escena  |
+| 17:55 | Verificación del estado del sistema | N/A               | Dispositivo encendido y en espera       |
+| 17:57 | Identificación de dispositivo    | N/A                   | Computadora de escritorio (Windows 7)    |
+| 18:00 | Inicio de captura de la memoria RAM | RamCapturer64     | Volcado completo realizado sin incidentes|
+| 18:05 | Cálculo de hashes de la memoria RAM | MD5 y SHA-1       | Hashes calculados y registrados          |
+| 18:10 | Preparación para copia de disco  | FTK Imager           | Configuración completada para copia      |
+| 18:15 | Inicio de adquisición de disco   | FTK Imager           | Creación de imagen en formato raw        |
+| 18:30 | Cálculo de hashes del disco      | MD5 y SHA-1          | Hashes generados y registrados           |
+| 18:35 | Extracción de datos temporales (triaje) | FTK Imager     | Archivos temporales y enlaces extraídos  |
+| 18:40 | Cálculo de hashes del triaje     | MD5 y SHA-1          | Integridad de datos confirmada           |
+| 18:45 | Adquisición de logs del sistema  | LastActivityView     | Captura de logs completa                 |
+| 18:50 | Cálculo de hashes de los logs    | MD5 y SHA-1          | Hashes generados para verificación       |
+| 18:55 | Finalización y etiquetado de evidencia | N/A             | Código único asignado: VM-001           |
+| 19:00 | Revisión final de integridad     | N/A                   | Verificación completa y almacenamiento seguro |
+
+
+### **Transferencia de evidencia a medio externo**
+
+Durante el proceso de documentación y adquisición de evidencia, se utilizó un pendrive para la transferencia segura de los archivos generados, incluyendo volcados de memoria, copias de disco y logs del sistema. 
+
+- **Dispositivo de transferencia:** Pendrive USB Kingston 32GB
+- **Código de evidencia del pendrive:** **USB-001**
+- **Contenido transferido:**  
+  - Volcado de memoria RAM
+  - Imagen de disco en formato raw
+  - Logs del sistema adquiridos con LastActivityView
+  - Archivos temporales y datos del triaje del disco
+
+Para respaldar la integridad de la evidencia y facilitar el acceso remoto seguro, los archivos se han subido a un servidor seguro. El acceso a estos archivos se puede realizar mediante la siguiente URL:
+
+- **URL de acceso a la evidencia:** [[https://servidor-seguro.com/evidencias/VM-001](https://drive.google.com/drive/folders/1vVx4PqRr3vmDsYtXdnxg-NKSrTgTZwmy?usp=drive_link)]([https://servidor-seguro.com/evidencias/VM-001](https://drive.google.com/drive/folders/1vVx4PqRr3vmDsYtXdnxg-NKSrTgTZwmy?usp=drive_link))  
+
+Esta transferencia se realizó respetando los principios de custodia, y el pendrive fue etiquetado con el código único **USB-001** y debidamente sellado para su almacenamiento seguro.
 
 
 
