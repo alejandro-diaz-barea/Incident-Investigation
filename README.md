@@ -157,7 +157,5 @@ Para respaldar la integridad de la evidencia y facilitar el acceso remoto seguro
 
 - **URL de acceso a la evidencia:** [[https://servidor-seguro.com/evidencias/VM-001](https://drive.google.com/drive/folders/1vVx4PqRr3vmDsYtXdnxg-NKSrTgTZwmy?usp=drive_link)]([https://servidor-seguro.com/evidencias/VM-001](https://drive.google.com/drive/folders/1vVx4PqRr3vmDsYtXdnxg-NKSrTgTZwmy?usp=drive_link))  
 
-Esta transferencia se realizó respetando los principios de custodia, y el pendrive fue etiquetado con el código único **USB-001** y debidamente sellado para su almacenamiento seguro.
-
 
 
